@@ -1,5 +1,5 @@
 # lp-solver
-A Python app that solves a linear programming problem using the two-phase method. The underlying solver is scipy's optimize.linprog. JQuery does all the front end heavy-lifting: generates the required tables, transforms the data to a format suitable for scipy.optimize.linprog, handles frontend validation.
+A Python app that solves a linear programming problem using the two-phase method. The underlying solver is scipy's optimize.linprog. JQuery does all the front end heavy-lifting: generates the required tables, transforms the data to a format suitable for scipy.optimize.linprog, handles frontend validation. Flask handles request to and fro the server - serves webpage, handle routing, etc
 
 Server validation not yet implemented. Just a demo app. 
 
